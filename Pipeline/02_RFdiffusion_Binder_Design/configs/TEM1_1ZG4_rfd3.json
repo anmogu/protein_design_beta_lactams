@@ -1,0 +1,20 @@
+{
+  "TEM1_1ZG4_omega_loop_binder": {
+    "dialect": 2,
+    "input": "/dtu/blackhole/12/220114/TEM1_1ZG4/exp_01/inputs/1ZG4_clean.pdb",
+    "contig": "60-120,/0,A26-238,A240-252,A254-290",
+    "length": "323-383",
+    "redesign_motif_sidechains": false,
+    "select_hotspots": {
+      "A164": "NE,NH1,NH2",
+      "A166": "OE1,OE2",
+      "A170": "OD1,ND2",
+      "A171": "OE1,OE2",
+      "A176": "OD1,OD2",
+      "A178": "NE,NH1,NH2",
+      "A179": "OD1,OD2"
+    },
+    "infer_ori_strategy": "hotspots",
+    "is_non_loopy": true
+  }
+}
